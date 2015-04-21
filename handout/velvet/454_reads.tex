@@ -28,8 +28,8 @@ The downloaded files can be used directly in velvet. To let velvet know that
 these FASTQ files are long reads, you pass in the parameter \texttt{-long} by
 using the commands:
 \begin{lstlisting}
-ln -s ~/NGS/Data/SRR000892.fastq.gz
-ln -s ~/NGS/Data/SRR000893.fastq.gz
+ln -s ~/denovo/data/SRR000892.fastq.gz
+ln -s ~/denovo/data/SRR000893.fastq.gz
 velveth run_25 25 -create_binary -fastq.gz -long *.fastq.gz
 time velvetg run_25
 \end{lstlisting}

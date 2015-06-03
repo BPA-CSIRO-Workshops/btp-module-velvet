@@ -6,4 +6,4 @@
   :datadir: '/etc/puppet/'
 
 :hierarchy:
-  - ngs-denovo-aws
+  - ngs-denovo-data

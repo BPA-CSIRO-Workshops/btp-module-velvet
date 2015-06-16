@@ -228,17 +228,6 @@ If you can achieve a good k-mer coverage - yes.
 \end{answer}
 \end{questions}
 
-\begin{bonus}
-velvet can also be used to process SOLID colour space data. To do this you need
-a further make parameter. With the following command clean away your last
-compilation and try the following parameters:
-\begin{lstlisting}
-make clean
-make MAXKMERLENGTH=41 CATEGORIES=3 color
-./velveth_de
-\end{lstlisting}
-\end{bonus}
-
 \begin{questions}
 What effect would the following compile-time parameters have on velvet:\\
 \texttt{OPENMP=Y}

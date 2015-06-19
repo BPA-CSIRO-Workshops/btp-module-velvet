@@ -23,7 +23,7 @@ btp::modules:
       s_aureus_mrsa252.EB1_s_aureus_mrsa252.dna.chromosome.Chromosome.fa.gz: 
         source: 'https://s3-ap-southeast-2.amazonaws.com/ngs-data-denovo'
         targets: 
-          - 'denovo/data/s_aureus_mrsa252.EB1_s_aureus_mrsa252.fa.gz'
+          - 'denovo/data/s_aureus_mrsa252.fa.gz'
       SRR022852_1.fastq.gz: 
         source: 'https://s3-ap-southeast-2.amazonaws.com/ngs-data-denovo'
         targets: 

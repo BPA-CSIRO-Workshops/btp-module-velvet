@@ -32,7 +32,7 @@ you require or use the file which we have downloaded for you. For the easier of
 these options, make and check a symlink to the local file and with the
 commands:
 \begin{lstlisting}
-ln -s ~/denovo/data/s_aureus_mrsa252.EB1_s_aureus_mrsa252.dna.chromosome.Chromosome.fa.gz ./
+ln -s ~/denovo/data/s_aureus_mrsa252.fa.gz ./
 ls -l
 \end{lstlisting}
 
@@ -52,7 +52,7 @@ than usual. I already prepared the executable which you can use by typing
 Now, run \texttt{velveth\_long}, using the file you either just downloaded or created a
 symlink to as the input:
 \begin{lstlisting}
-velveth_long run_25 25 -fasta.gz -long s_aureus_mrsa252.EB1_s_aureus_mrsa252.dna.chromosome.Chromosome.fa.gz
+velveth_long run_25 25 -fasta.gz -long s_aureus_mrsa252.fa.gz
 velvetg_long run_25
 \end{lstlisting}
 

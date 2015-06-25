@@ -12,6 +12,10 @@ btp::modules:
       - 'denovo'
       - 'denovo/data'
     data:
+      velvet_1.2.10.tgz: 
+        source: 'https://s3-ap-southeast-2.amazonaws.com/ngs-data-denovo'
+        targets: 
+          - 'denovo/data/velvet_1.2.10.tgz'
       SRR022825.fastq.gz: 
         source: 'https://s3-ap-southeast-2.amazonaws.com/ngs-data-denovo'
         targets: 

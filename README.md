@@ -18,8 +18,6 @@ Bioinformatics Training Platform (BTP) Module: Velvet for *de novo* assembly
     * Understand the importance of using paired-end libraries in *de novo* genome assembly
   * Time Required
     * 1 day
-  * Compute Requirements
-    * 
 
 License
 =======

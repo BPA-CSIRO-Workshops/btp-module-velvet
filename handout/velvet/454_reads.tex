@@ -19,7 +19,7 @@ this differs compared to short reads.
 First move to the directory you made for this exercise and make a suitable named
 directory for the exercise before downloading the read files:
 \begin{lstlisting}
-cd ~/NGS/velvet/part3
+cd /home/trainee/denovo/NGS/velvet/part3
 mkdir SRX000181
 cd SRX000181
 \end{lstlisting}
@@ -28,8 +28,8 @@ The downloaded files can be used directly in velvet. To let velvet know that
 these FASTQ files are long reads, you pass in the parameter \texttt{-long} by
 using the commands:
 \begin{lstlisting}
-ln -s ~/denovo/data/SRR000892.fastq.gz
-ln -s ~/denovo/data/SRR000893.fastq.gz
+ln -s /home/trainee/denovo/data/SRR000892.fastq.gz
+ln -s /home/trainee/denovo/data/SRR000893.fastq.gz
 velveth run_25 25 -create_binary -fastq.gz -long *.fastq.gz
 time velvetg run_25
 \end{lstlisting}

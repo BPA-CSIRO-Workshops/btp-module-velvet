@@ -26,12 +26,12 @@ create a new folder with a suitable name for this part and move into it. There
 is no need to download the read files, as they are already stored locally.
 Instead we will create symlinks to the files. Continue by copying (or typing):
 \begin{lstlisting}
-cd ~/NGS/velvet/part1
+cd /home/trainee/denovo/NGS/velvet/part1
 mkdir SRS004748
 cd SRS004748
 pwd
-ln -s ~/denovo/data/SRR022825.fastq.gz ./
-ln -s ~/denovo/data/SRR022823.fastq.gz ./
+ln -s /home/trainee/denovo/data/SRR022825.fastq.gz ./
+ln -s /home/trainee/denovo/data/SRR022823.fastq.gz ./
 ls -l
 \end{lstlisting}
 \end{steps}
@@ -224,7 +224,7 @@ To see the improvements, rerun \texttt{velvetg} first with \texttt{-cov\_cutoff}
 after checking the N50 use only / add \texttt{-exp\_cov} 14 to the command line
 option. Also keep a copy of the contigs file for comparison:
 \begin{lstlisting}
-cd ~/NGS/velvet/part1/SRS004748
+cd /home/trainee/denovo/NGS/velvet/part1/SRS004748
 time velvetg run_25 -cov_cutoff 6
 
 # Make a copy of the run

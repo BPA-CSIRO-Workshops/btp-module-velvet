@@ -287,7 +287,7 @@ commands:
 Open the two compressed FASTQ files (File $->$ Open) by selecting them
 both and clicking OK). Look at tabs for both files:
 
-![\[fig:paired\_fastqc\]](handout/velvet/paired_fastqc.png){width="80.00000%"}
+![\[fig:paired\_fastqc\]](images/paired_fastqc.png){width="80.00000%"}
 
 Are the quality scores the same for both files?
 
@@ -326,7 +326,7 @@ Which other statistics could you use to support your trimming strategy?
 “Per base sequence content", “Per base GC content", “Kmer content", “Per
 base sequence quality"
 
-![\[fig:paired\_fastqc\_quality\_plots\]](handout/velvet/paired_fastqc_quality_plots.png){width="80.00000%"}
+![\[fig:paired\_fastqc\_quality\_plots\]](images/paired_fastqc_quality_plots.png){width="80.00000%"}
 
 Once you have decided what your trim points will be, close FastQC. We
 will use `fastx_trimmer` from the FASTX-Toolkit to perform fixed-length

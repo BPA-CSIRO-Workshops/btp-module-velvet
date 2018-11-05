@@ -179,10 +179,10 @@ Discuss with the persons next to you the following questions:
     ??? "**Answer**"
         If you can achieve a good k-mer coverage - yes.
 
-What effect would the following compile-time parameters have on velvet:
 
 !!! note "Question"
-   OPENMP=Y
+    What effect would the following compile-time parameters have on velvet:
+    OPENMP=Y
 
 !!! success ""
     ??? "**Answer**"
@@ -642,13 +642,15 @@ order to use `-cov_cutoff` and `-exp_cov` sensibly, you need to
 investigate with R, as you did in the previous exercise, what parameter
 values to use. Start up R and produce the weighted histograms:
 
+```
     R --no-save
     library(plotrix) 
-    data <- read.table("run_21/stats.txt", header=TRUE) 
+    data <-read.table("run_21/stats.txt", header=TRUE) 
     data2 <- read.table("run_21trim/stats.txt", header=TRUE) 
     par(mfrow=c(1,2))
     weighted.hist(data$short1_cov, data$lgth, breaks=0:50)
     weighted.hist(data2$short1_cov, data2$lgth, breaks=0:50)
+```
 
 Weighted k-mer coverage histograms of the paired-end reads pre-trimmed (left) and post-trimmed
 (right).
